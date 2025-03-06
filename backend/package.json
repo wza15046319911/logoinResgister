@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node --watch index.js",
+    "prisma:generate": "npx prisma generate",
     "studio": "npx prisma studio",
     "test": "node src/test/testDBConnection.js",
     "sec": "node src/secret/generateRandomBytes.js"
