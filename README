@@ -1,1 +1,4 @@
-Login & Register
+前端 (frontend)： 纯 HTML + JS + SCSS，使用 Vite 进行开发。
+后端 (backend)： Node.js + Express + Prisma，连接 PostgreSQL。
+数据库 (PostgreSQL)： 目前托管在 sealos.io 远程服务器上。
+运行方式： 本地运行 pnpm dev / pnpm start 启动后端，前端通过 vite 运行。
