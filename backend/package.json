@@ -9,7 +9,8 @@
     "prisma:generate": "npx prisma generate",
     "studio": "npx prisma studio",
     "test": "node src/test/testDBConnection.js",
-    "sec": "node src/secret/generateRandomBytes.js"
+    "sec": "node src/secret/generateRandomBytes.js",
+    "img": "docker build -t login_register-backend:1.0.0 ."
   },
   "keywords": [],
   "author": "",

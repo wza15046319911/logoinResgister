@@ -1,4 +1,4 @@
-import "../frontend/index.scss";
+import "./index.scss"; 
 
 import * as dom from "./src/dom.js";
 import { clearDomValue , isInputHasContent } from "./src/utils"; 
